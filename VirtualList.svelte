@@ -11,6 +11,7 @@
 	// read-only, but visible to consumers via bind:start
 	export let start = 0;
 	export let end = 0;
+	export const getViewport = () => viewport
 
 	// local state
 	let height_map = [];
