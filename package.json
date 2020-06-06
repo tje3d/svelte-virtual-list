@@ -1,6 +1,6 @@
 {
   "name": "svelte-virtual-list-enhanced",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A <VirtualList> component for Svelte apps",
   "main": "VirtualList.svelte",
   "svelte": "VirtualList.svelte",
