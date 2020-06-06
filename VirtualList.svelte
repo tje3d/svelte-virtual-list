@@ -6,8 +6,6 @@
 	export let height = '100%';
 	export let itemHeight = undefined;
 
-	let foo;
-
 	// read-only, but visible to consumers via bind:start
 	export let start = 0;
 	export let end = 0;
@@ -35,6 +33,10 @@
 
 	// whenever `items` changes, invalidate the current heightmap
 	$: if (mounted) refresh(items, viewport_height, itemHeight);
+
+	export async function doRefresh() {
+		return refresh(items, viewport_height, itemHeight);
+	}
 
 	async function refresh(items, viewport_height, itemHeight) {
 		const { scrollTop } = viewport;
