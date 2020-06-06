@@ -71,7 +71,13 @@
 	}
 
 	async function handle_scroll(event) {
-		const { scrollTop } = viewport;
+		const { scrollTop, clientHeight, scrollHeight } = viewport;
+
+		if (scrollTop === 0) {
+			dispatch('onTopReached');
+		} else if (scrollTop + clientHeight >= scrollHeight) {
+			dispatch('onEndReached');
+		}
 
 		const old_start = start;
 
