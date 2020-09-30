@@ -1,6 +1,6 @@
 {
     "name": "@lionixevolve/svelte-virtual-list-enhanced",
-    "version": "1.2.1",
+    "version": "3.1.1",
     "description": "A <VirtualList> component for Svelte apps",
     "main": "VirtualList.svelte",
     "svelte": "VirtualList.svelte",
