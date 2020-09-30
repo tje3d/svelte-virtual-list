@@ -1,5 +1,13 @@
-# svelte-virtual-list changelog
+# svelte-virtual-list-enhanced changelog
 
+## 3.1.1
+
+* Added custom loop index to improve re-renders
+
+# 3.1.0
+ 
+ * Fork from tje3d/svelte-virtual-list 
+ 
 ## 3.0.1
 
 * Prevent missing `itemHeight` prop warning
