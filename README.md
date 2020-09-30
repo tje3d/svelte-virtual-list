@@ -1,4 +1,5 @@
-# ATTENTION THIS IS A WORK IN PROGRESS FORK FROM RICHARD'S OWN VIRTUAL-LIST LIBRARY (he is not maintaining it properly) 
+# ATTENTION THIS IS A WORK IN PROGRESS FORK 
+FROM RICHARD'S OWN VIRTUAL-LIST LIBRARY (he is not maintaining it currently) 
 It has some undocumented new functionalities that can be seen from the commit list
 
 # svelte-virtual-list-enhanced ([demo](https://svelte.dev/repl/f78ddd84a1a540a9a40512df39ef751b))
@@ -8,15 +9,18 @@ A virtual list component for Svelte apps. Instead of rendering all your data, `<
 ## Installation
 
 ```bash
-yarn add svelte-virtual-list-enchanced
+yarn add @lionixevolve/svelte-virtual-list-enchanced
 ```
-
+Or npm
+```bash
+npm i --save @lionixevolve/svelte-virtual-list-enchanced
+```
 
 ## Usage
 
 ```html
 <script>
-  import VirtualList from 'svelte-virtual-list-enchanced';
+  import VirtualList from '@lionixevolve/svelte-virtual-list-enchanced';
 
   const things = [
     // these can be any values you like
