@@ -29,7 +29,7 @@
     "tape-modern": "^1.1.1"
   },
   "repository": "https://github.com/sveltejs/svelte-virtual-list",
-  "author": "Rich Harris",
+  "author": "Rich Harris + evolved by some folks from lionix and the world",
   "license": "LIL",
   "keywords": [
     "svelte"
