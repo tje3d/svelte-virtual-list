@@ -9,18 +9,18 @@ A virtual list component for Svelte apps. Instead of rendering all your data, `<
 ## Installation
 
 ```bash
-yarn add @lionixevolve/svelte-virtual-list-enchanced
+yarn add @lionixevolve/svelte-virtual-list-enhanced
 ```
 Or npm
 ```bash
-npm i --save @lionixevolve/svelte-virtual-list-enchanced
+npm i --save @lionixevolve/svelte-virtual-list-enhanced
 ```
 
 ## Usage
 
 ```html
 <script>
-  import VirtualList from '@lionixevolve/svelte-virtual-list-enchanced';
+  import VirtualList from '@lionixevolve/svelte-virtual-list-enhanced';
 
   const things = [
     // these can be any values you like
