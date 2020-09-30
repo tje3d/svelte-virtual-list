@@ -1,5 +1,5 @@
 {
-    "name": "@lionix/svelte-virtual-list-enhanced",
+    "name": "@lionixevolve/svelte-virtual-list-enhanced",
     "version": "1.2.0",
     "description": "A <VirtualList> component for Svelte apps",
     "main": "VirtualList.svelte",
